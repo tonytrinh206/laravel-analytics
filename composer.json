@@ -9,7 +9,13 @@
     "reports",
     "laravel"
   ],
-  "homepage": "https://github.com/spatie/laravel-analytics",
+  "repositories": [
+    {
+        "type": "vcs",
+        "url": "git@github.com:tonytrinh206/laravel-analytics.git"
+    }
+  ],
+  "homepage": "https://github.com/tonytrinh206/laravel-analytics",
   "license": "MIT",
   "authors": [
     {
