@@ -189,6 +189,15 @@ class Analytics
         );
     }
 
+    public function realtimeQuery(string $metrics, array $others = [])
+    {
+        return $this->client->realtimeQuery(
+            $this->viewId,
+            $metrics,
+            $others
+        );
+    }
+
     /*
      * Get the underlying Google_Service_Analytics object. You can use this
      * to basically call anything on the Google Analytics API.
